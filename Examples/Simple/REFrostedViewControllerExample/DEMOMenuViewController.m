@@ -18,6 +18,8 @@
 {
     [super viewDidLoad];
     
+    self.tableView = [[UITableView alloc] initWithFrame:self.view.bounds style:UITableViewStyleGrouped];
+
     self.tableView.separatorColor = [UIColor colorWithRed:150/255.0f green:161/255.0f blue:177/255.0f alpha:1.0f];
     self.tableView.delegate = self;
     self.tableView.dataSource = self;
@@ -60,6 +62,7 @@
     cell.textLabel.font = [UIFont fontWithName:@"HelveticaNeue" size:17];
 }
 
+/*
 - (UIView *)tableView:(UITableView *)tableView viewForHeaderInSection:(NSInteger)sectionIndex
 {
     if (sectionIndex == 0)
@@ -78,6 +81,7 @@
     
     return view;
 }
+ */
 
 - (CGFloat)tableView:(UITableView *)tableView heightForHeaderInSection:(NSInteger)sectionIndex
 {
@@ -106,6 +110,15 @@
 #pragma mark -
 #pragma mark UITableView Datasource
 
+-(NSString *)tableView:(UITableView *)tableView titleForHeaderInSection:(NSInteger)section{
+    if (section == 0) {
+        return  @"sdas";
+        NSLog(@"asdsad");
+    }else{
+        return @"聚焦";
+    }
+}
+
 - (CGFloat)tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath
 {
     return 54;
@@ -132,8 +145,9 @@
     }
     
     if (indexPath.section == 0) {
-        NSArray *titles = @[@"Home", @"Profile", @"Chats"];
+        NSArray *titles = @[@"收集箱"];
         cell.textLabel.text = titles[indexPath.row];
+        cell.imageView.image = [UIImage imageNamed:@"icon-leftbox-inbox~iphone"];
     } else {
         NSArray *titles = @[@"John Appleseed", @"John Doe", @"Test User"];
         cell.textLabel.text = titles[indexPath.row];

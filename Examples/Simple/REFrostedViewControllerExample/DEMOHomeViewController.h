@@ -7,7 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
-
-@interface DEMOHomeViewController : UIViewController
+#import "DEMOBaseVC.h"
+@interface DEMOHomeViewController : DEMOBaseVC
 
 @end

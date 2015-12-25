@@ -27,6 +27,8 @@
 		3032B9031805BE3800064F85 /* RECommonFunctions.m in Sources */ = {isa = PBXBuildFile; fileRef = 3032B9021805BE3800064F85 /* RECommonFunctions.m */; };
 		307EEC5C17EB27F00050EE33 /* Accelerate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 307EEC5B17EB27F00050EE33 /* Accelerate.framework */; };
 		307EEC5E17EB27F50050EE33 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 307EEC5D17EB27F50050EE33 /* QuartzCore.framework */; };
+		93463ED71C2D31B80021B8B8 /* DEMOBaseVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 93463ED41C2D31B80021B8B8 /* DEMOBaseVC.m */; };
+		93463ED81C2D31B80021B8B8 /* DEMOTableVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 93463ED61C2D31B80021B8B8 /* DEMOTableVC.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -65,6 +67,10 @@
 		3032B9021805BE3800064F85 /* RECommonFunctions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RECommonFunctions.m; sourceTree = "<group>"; };
 		307EEC5B17EB27F00050EE33 /* Accelerate.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accelerate.framework; path = System/Library/Frameworks/Accelerate.framework; sourceTree = SDKROOT; };
 		307EEC5D17EB27F50050EE33 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		93463ED31C2D31B80021B8B8 /* DEMOBaseVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DEMOBaseVC.h; sourceTree = "<group>"; };
+		93463ED41C2D31B80021B8B8 /* DEMOBaseVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DEMOBaseVC.m; sourceTree = "<group>"; };
+		93463ED51C2D31B80021B8B8 /* DEMOTableVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DEMOTableVC.h; sourceTree = "<group>"; };
+		93463ED61C2D31B80021B8B8 /* DEMOTableVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DEMOTableVC.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -149,6 +155,10 @@
 				3010B57517E9FAAA006791FB /* DEMONavigationController.m */,
 				3010B57117E9FA96006791FB /* DEMOSecondViewController.h */,
 				3010B57217E9FA96006791FB /* DEMOSecondViewController.m */,
+				93463ED31C2D31B80021B8B8 /* DEMOBaseVC.h */,
+				93463ED41C2D31B80021B8B8 /* DEMOBaseVC.m */,
+				93463ED51C2D31B80021B8B8 /* DEMOTableVC.h */,
+				93463ED61C2D31B80021B8B8 /* DEMOTableVC.m */,
 			);
 			name = Controllers;
 			sourceTree = "<group>";
@@ -246,6 +256,8 @@
 				3032B8F81805AB1800064F85 /* UIImage+REFrostedViewController.m in Sources */,
 				3010B57317E9FA96006791FB /* DEMOSecondViewController.m in Sources */,
 				3032B9031805BE3800064F85 /* RECommonFunctions.m in Sources */,
+				93463ED81C2D31B80021B8B8 /* DEMOTableVC.m in Sources */,
+				93463ED71C2D31B80021B8B8 /* DEMOBaseVC.m in Sources */,
 				3010B54D17E9FA67006791FB /* DEMOAppDelegate.m in Sources */,
 				3032B8FA1805AB1800064F85 /* UIViewController+REFrostedViewController.m in Sources */,
 				3010B56D17E9FA7C006791FB /* DEMOMenuViewController.m in Sources */,
